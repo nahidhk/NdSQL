@@ -1,0 +1,68 @@
+@font-face {
+    font-family: myfont;
+    src: url("./assets/font/font.ttf");
+}
+
+* {
+    font-family: myfont;
+    margin: 0;
+}
+
+:root {
+    --main-color: #ff6500;
+    --use-color: #4680ff;
+}
+
+body,
+button {
+    font-size: 18px;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    height: 80px;
+    margin: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+.block {
+    display: block;
+}
+
+.center {
+    justify-content: center;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.beet {
+    justify-content: space-between;
+}
+
+.medel {
+    align-items: center;
+}
+
+.nav-logo {
+    height: 40px;
+}
+
+.roundBtn {
+    height: 40px;
+    width: auto;
+    padding: 0 30px 0 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: var(--main-color);
+    color: #fff;
+    cursor: pointer;
+}
