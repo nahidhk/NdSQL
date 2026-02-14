@@ -65,4 +65,5 @@ button {
     background-color: var(--main-color);
     color: #fff;
     cursor: pointer;
+    transition: all 0.3s;
 }
