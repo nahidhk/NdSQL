@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../assets/img/nav_logo.png"
 import navComponents from "../../data/navComponent.json"
 import { useNavigate } from "react-router-dom";
+import { HiMenuAlt1 } from "react-icons/hi";
 
 export default function Nav() {
     const navigate = useNavigate();
@@ -12,7 +13,7 @@ export default function Nav() {
                     <img src={logo} className="nav-logo" />
                 </div>
                 <div className="nav-btnBox">
-
+                   <HiMenuAlt1 className="mobileNavButton"/>
                     <ul className="nav-list flex center medel">
                         {
                             navComponents.map(item => (
