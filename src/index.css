@@ -67,3 +67,50 @@ button {
     cursor: pointer;
     transition: all 0.3s;
 }
+
+.roundBtn:hover {
+    background-color: #c24e00;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list li {
+    margin: 8px;
+    cursor: pointer;
+    color: #1d1d1d;
+    transition: all 0.3s;
+}
+
+.nav-list li:hover {
+    border-bottom: 1px solid var(--main-color);
+    transform: scale(1.2);
+    color: var(--main-color);
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        height: auto;
+        padding: 10px;
+        width: 100%;
+        background-color: #eee;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        list-style: none;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: 80px;
+        animation: aniti 1s;
+    }
+    @keyframes aniti {
+        0%{
+            transform: rotateX(100deg);
+        }
+          100%{
+            transform: rotateYX(0deg);
+        }
+    }
+
+}
