@@ -88,11 +88,14 @@ button {
     transform: scale(1.2);
     color: var(--main-color);
 }
-.mobileNavButton{
+
+.mobileNavButton {
     display: none;
 }
+
 @media (max-width: 768px) {
     .nav-list {
+        display: none;
         height: auto;
         width: 50%;
         background-color: #eee;
@@ -106,15 +109,18 @@ button {
         animation: aniti 1s;
         padding: 10px;
     }
+
     @keyframes aniti {
-        0%{
-            transform: rotateX(100deg);
+        0% {
+            transform: rotateX(90deg);
         }
-          100%{
+
+        100% {
             transform: rotateYX(0deg);
         }
     }
-    .mobileNavButton{
+
+    .mobileNavButton {
         display: block;
         font-size: 29px;
         color: #000;
