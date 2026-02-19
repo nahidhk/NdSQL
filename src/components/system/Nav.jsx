@@ -44,14 +44,10 @@ export default function Nav() {
                         }
                         <li>
                             <button onClick={() => window.location.href = "https://www.supportkori.com/nahidhk"} className="roundBtn">
-                                Support
+                                Login
                             </button>
                         </li>
                     </ul>
-
-
-
-
                 </div>
             </div>
         </>

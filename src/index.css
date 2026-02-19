@@ -84,13 +84,24 @@ button {
 }
 
 .nav-list li:hover {
-    border-bottom: 1px solid var(--main-color);
     transform: scale(1.2);
     color: var(--main-color);
 }
 
 .mobileNavButton {
     display: none;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.mbW100to80 {
+    min-width: 80%;
+}
+
+.test {
+    background-color: red;
 }
 
 @media (max-width: 768px) {
@@ -106,7 +117,7 @@ button {
         position: absolute;
         right: 0;
         top: 80px;
-        animation: aniti 1s;
+        animation: aniti 0.7s;
         padding: 10px;
     }
 
@@ -126,6 +137,10 @@ button {
         color: #000;
         cursor: pointer;
         padding: 8px;
+    }
+
+    .mbW100to80 {
+        min-width: 100%;
     }
 
 }

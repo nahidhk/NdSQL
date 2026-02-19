@@ -11,17 +11,17 @@
     },
     {
         "id": 3,
-        "title": "Project",
-        "target": "/project"
+        "title": "Docs",
+        "target": "/docs"
     },
     {
         "id": 4,
-        "title": "Admin",
-        "target": "/admin"
+        "title": "Public Api",
+        "target": "/api"
     },
     {
         "id": 4,
-        "title": "DB access",
-        "target": "/db"
+        "title": "Service",
+        "target": "/service"
     }
 ]
