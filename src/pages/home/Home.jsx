@@ -1,18 +1,20 @@
 import React from "react";
-import waveImg from "../../assets/img/wave/blurry-gradient-haikei.svg"
+import Contener from "../../components/ui/Contener";
 
 export default function Home() {
     return (
         <>
-        <div className="flex center w100">
-            <div className="mbW100to80">
-                <div className="test">
-                    <h1>
-                        Test
-                    </h1>
-                </div>
+            <div className="bagimg flex cnter medel">
+                <Contener>
+                    <div className="flex center medel" >
+                        <p className="homeTitle">
+                           <span>
+                            NdSQL API Provider Platform 
+                           </span>
+                        </p>
+                    </div>
+                </Contener>
             </div>
-        </div>
         </>
     )
 }
