@@ -2,6 +2,7 @@
     font-family: myfont;
     src: url("./assets/font/font.otf");
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 
@@ -9,13 +10,19 @@
     --main-color: #ff6500;
     --use-color: #4680ff;
     --ndsql-font: myfont;
-    --google-font:"Josefin Sans", sans-serif;
+    --google-font: "Josefin Sans", sans-serif;
 }
-
+.mainColor{
+    color: var(--main-color);
+}
+.useColor{
+    color: var(--use-color);
+}
 body,
 button {
     font-size: 18px;
 }
+
 * {
     font-family: var(--google-font);
     margin: 0;
@@ -109,19 +116,23 @@ button {
 .test {
     background-color: red;
 }
-.bagimg{
+
+.bagimg {
     background-image: url("./assets/img/wave/blurry-gradient-haikei.svg");
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.homeTitle{
-    font-size: 20mm;
+
+.homeTitle {
+    font-size: 6vw;
     font-weight: bold;
     text-align: center;
+    color: #3c3c3c;
 }
-.ndsql{
+
+.ndsql {
     font-family: var(--ndsql-font);
 }
 
@@ -163,8 +174,5 @@ button {
     .mbW100to80 {
         min-width: 90%;
     }
-    .homeTitle{
-    font-size: 11mm;
-}
 
 }

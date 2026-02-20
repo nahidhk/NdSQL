@@ -9,8 +9,11 @@ export default function Home() {
                     <div className="flex center medel" >
                         <p className="homeTitle">
                            <span>
-                            NdSQL API Provider Platform 
-                           </span>
+                            <span className="mainColor">NdSQL  </span>is API Service <br /> Provider Platform in  
+                            <span className="useColor">
+                                &nbsp;React
+                            </span>
+                           </span> 
                         </p>
                     </div>
                 </Contener>
