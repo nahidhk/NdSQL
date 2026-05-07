@@ -12,12 +12,15 @@
     --ndsql-font: myfont;
     --google-font: "Josefin Sans", sans-serif;
 }
-.mainColor{
+
+.mainColor {
     color: var(--main-color);
 }
-.useColor{
+
+.useColor {
     color: var(--use-color);
 }
+
 body,
 button {
     font-size: 18px;
@@ -116,7 +119,9 @@ button {
 .test {
     background-color: red;
 }
-
+.w90{
+    width: 90%;
+}
 .bagimg {
     background-image: url("./assets/img/wave/blurry-gradient-haikei.svg");
     height: 100vh;
@@ -135,6 +140,8 @@ button {
 .ndsql {
     font-family: var(--ndsql-font);
 }
+
+
 
 @media (max-width: 768px) {
     .nav-list {

@@ -11,17 +11,7 @@
     },
     {
         "id": 3,
-        "title": "Docs",
-        "target": "/docs"
-    },
-    {
-        "id": 4,
         "title": "Public Api",
         "target": "/api"
-    },
-    {
-        "id": 4,
-        "title": "Service",
-        "target": "/service"
     }
 ]

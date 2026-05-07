@@ -1,23 +1,14 @@
 import React from "react";
-import Contener from "../../components/ui/Contener";
+import Hv1 from "./Hv1";
+import Hv2 from "./Hv2";
+
+
 
 export default function Home() {
     return (
         <>
-            <div className="bagimg flex cnter medel">
-                <Contener>
-                    <div className="flex center medel" >
-                        <p className="homeTitle">
-                           <span>
-                            <span className="mainColor">NdSQL  </span>is API Service <br /> Provider Platform in  
-                            <span className="useColor">
-                                &nbsp;React
-                            </span>
-                           </span> 
-                        </p>
-                    </div>
-                </Contener>
-            </div>
+            <Hv1 />
+            <Hv2 />
         </>
     )
 }
