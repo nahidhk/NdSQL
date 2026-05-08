@@ -119,9 +119,11 @@ button {
 .test {
     background-color: red;
 }
-.w90{
+
+.w90 {
     width: 90%;
 }
+
 .bagimg {
     background-image: url("./assets/img/wave/blurry-gradient-haikei.svg");
     height: 100vh;
@@ -141,6 +143,28 @@ button {
     font-family: var(--ndsql-font);
 }
 
+.web_img {
+    height: 500px;
+    border-radius: 10px;
+}
+
+code,
+pre {
+    background-color: #1a1a1a;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.mark {
+  background-color: #a6a6a6;
+  color: #fff;
+  border-radius: 5px;
+  padding: 3px;
+}
+.web_fill{
+   width: 90%;
+}
 
 
 @media (max-width: 768px) {

@@ -1,0 +1,6 @@
+{
+    "home_code": {
+        "api_url": "https://api.ndsql.top/",
+        "js_api_code":"function getData() {\n    fetch('https://api.ndsql.top/')\n        .then(response => response.json())\n        .then(data => console.log(data))\n        .catch(error => console.error('Error fetching data:', error));\n}"
+    }
+}
