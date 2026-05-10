@@ -205,5 +205,15 @@ pre {
     .mbW100to80 {
         min-width: 90%;
     }
+    .mbColumn {
+        flex-direction: column;
+    }
+    .web_img {
+        height: auto;
+        width: 100%;
+    }
+    .mbNone {
+        display: none;
+    }
 
 }

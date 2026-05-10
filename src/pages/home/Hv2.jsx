@@ -5,6 +5,7 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 import codeData from "../../data/code.json";
 import restApiImage2 from "../../assets/web_img/restApi02.png";
+import restMobileApp from "../../assets/web_img/mobileRestApi02.png";
 
 export default function Hv2() {
 
@@ -21,7 +22,7 @@ export default function Hv2() {
             </Contener>
             <Contener>
                 <div className="flex center">
-                    <div className="flex around w90 medel">
+                    <div className="flex around w90 medel mbColumn">
                         <div>
                             <p>
                                 The API services are the backbone of our application, providing a seamless and efficient way to access and manipulate data. They are designed to be robust, scalable, and secure, ensuring that users can interact with our platform without any hiccups. Whether it's fetching user information, processing transactions, or integrating with third-party services, our API services are built to handle it all with ease.
@@ -69,7 +70,8 @@ export default function Hv2() {
 
                 </div>
                 <div className="flex center medel">
-                    <img className="web_fill" src={restApiImage2} alt="REST API" />
+                    <img className="web_fill mbNone" src={restApiImage2} alt="REST API" />
+                    <img className="web_fill" src={restMobileApp} alt="REST API" />
                 </div>
             </Contener>
         </>
